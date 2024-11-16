@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDN Semi-Automation</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>SDN Semi-Automation</h1>
+        </header>
+        <main>
+            <section id="generate-code-section">
+                <h2>Please Enter Your Input</h2>
+                <form id="prompt-form">
+                    <textarea id="prompt" name="prompt" rows="6" placeholder="Enter your prompt here..."></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <div id="response" class="hidden">
+                    <h3>Generated Response:</h3>
+                    <pre id="code-output"></pre>
+                    <button id="execute-code" class="btn">Execute Code</button>
+                    <div id="execution-result" class="result"></div>
+                </div>
+            </section>
+  
+        </main>
+        <footer>
+            <p>&copy; 2024 SDN Semi-Automaton by Mahesh Yadav Udutha. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+
